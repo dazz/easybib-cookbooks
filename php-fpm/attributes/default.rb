@@ -17,6 +17,7 @@ default["php-fpm"][:apc_version]      = "3.1.4"
 default["php-fpm"][:xhprof_version]   = "0.9.2"
 default["php-fpm"][:source]           = "source" # source, ubuntu, easybib
 
+# this is useless because launchpad only keeps the latest
 default["php-fpm"][:packages] = {
     "graphviz"              => nil,
     "php5-easybib"          => "5.3.5-0easybib9",
