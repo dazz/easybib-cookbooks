@@ -33,6 +33,7 @@ COUCHDB=/usr/local/bin/couchdb
 CONFIGURATION_FILE=/etc/default/couchdb
 RUN_DIR=/usr/local/var/run/couchdb
 LSB_LIBRARY=/lib/lsb/init-functions
+SL_NAME=<%= node[:silverline][:couchdb] %>
 
 if test ! -x $COUCHDB; then
     exit $SCRIPT_ERROR

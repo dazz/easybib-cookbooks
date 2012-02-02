@@ -9,6 +9,7 @@ default[:couchdb][:gid]            = 2000
 default[:couchdb][:replica]        = false
 default[:couchdb][:backup_backlog] = 10
 default[:couchdb][:port]           = 5984
+default[:silverline][:couchdb]     = "couchdb"
 
 default[:couchbase]      = {}
 default[:couchbase][:dl] = "http://packages.couchbase.com/releases/couch/1.1.2/couchbase-single-server-community_x86_64_1.1.2.deb"
